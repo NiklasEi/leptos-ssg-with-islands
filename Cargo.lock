@@ -1197,8 +1197,7 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 [[package]]
 name = "leptos"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2df7b113c4c1f416d306bc4cd52a04dec1c68ed734e4a1de2f70c30b828a6a5d"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "cfg-if",
  "leptos_config",
@@ -1217,8 +1216,7 @@ dependencies = [
 [[package]]
 name = "leptos_actix"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "732e955ed2d9b8f4679b30bc76b1d3cefe0e6d4029368f676a729c49df48a622"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "actix-http",
  "actix-web",
@@ -1237,8 +1235,7 @@ dependencies = [
 [[package]]
 name = "leptos_config"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "601e61b5acfc2dd65400ea0897593543f4a1faaf9694b194f5e2747deba76b8c"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "config",
  "regex",
@@ -1250,8 +1247,7 @@ dependencies = [
 [[package]]
 name = "leptos_dom"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f7e00a9a3b7b150c9aebb1dfdd1cb7c2ffb33a7a9075dcb891b3e214b645172e"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "async-recursion",
  "cfg-if",
@@ -1280,8 +1276,7 @@ dependencies = [
 [[package]]
 name = "leptos_hot_reload"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d02f51077512f548cc3274fa422d38155b1cf6c87ab908b5797cfcd5ddd6f3f1"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "anyhow",
  "camino",
@@ -1298,8 +1293,7 @@ dependencies = [
 [[package]]
 name = "leptos_integration_utils"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f4aea05d1c0ed9e928b63b08cde9dabd8c35e9179e90ce21d6b5df2463ff59d"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "futures",
  "leptos",
@@ -1312,8 +1306,7 @@ dependencies = [
 [[package]]
 name = "leptos_macro"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f3a15891cd424d9c9f3062a6fd1e4472cd3435359841c678fb6bc6eb87f19cf0"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "attribute-derive",
  "cfg-if",
@@ -1335,8 +1328,7 @@ dependencies = [
 [[package]]
 name = "leptos_meta"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ab0df56e3f78629049a969180fd44d4788c48e2633c789ba6a0da8f5d7e1c309"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "cfg-if",
  "indexmap 2.0.2",
@@ -1349,8 +1341,7 @@ dependencies = [
 [[package]]
 name = "leptos_reactive"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b669db2e4c2c2435b77d534b41578ec986f012c21e1c2d3ef1042b5ab688f65"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "base64",
  "cfg-if",
@@ -1376,13 +1367,13 @@ dependencies = [
 [[package]]
 name = "leptos_router"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a46de957a50e428c95f4fc924251743a5bac3279967fce331157848eb8cf85a2"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "cached",
  "cfg-if",
  "common_macros",
  "gloo-net",
+ "itertools 0.11.0",
  "js-sys",
  "lazy_static",
  "leptos",
@@ -1407,8 +1398,7 @@ dependencies = [
 [[package]]
 name = "leptos_server"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26c79b6c9c11b93e33d7f9976a45f03f78845c940f902ca4b9477db8a527dc14"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "inventory",
  "lazy_static",
@@ -2087,8 +2077,7 @@ dependencies = [
 [[package]]
 name = "server_fn"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c0fe0ff97b5d8bc4097265a372ed1e38c54355d680c7e2298025fb5d5fc4896"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "ciborium",
  "const_format",
@@ -2112,8 +2101,7 @@ dependencies = [
 [[package]]
 name = "server_fn_macro"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49da76920fedc5ed480b35713aac633b2be5e505b91d4ccb75ce8ac6d166b321"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "const_format",
  "proc-macro-error",
@@ -2127,8 +2115,7 @@ dependencies = [
 [[package]]
 name = "server_fn_macro_default"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55d29b811163792be818c26e36c73a6eaae0e41d115f8004b86ab9cf3d8cb2d6"
+source = "git+https://github.com/NiklasEi/leptos?branch=compatibility_own_ssg_workflow#0d34e14217c1000f2814847195e3d3e3cf3b595a"
 dependencies = [
  "server_fn_macro",
  "syn 2.0.38",
