@@ -34,7 +34,7 @@ pub fn App() -> impl IntoView {
                     />
                     <StaticRoute
                         path="/*any"
-                        view=NotFound
+                        view=HomePage
                         static_params=move || Box::pin(async move {
                             let mut map = StaticParamsMap::default();
                             map.insert(
