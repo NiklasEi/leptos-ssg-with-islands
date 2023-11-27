@@ -1,6 +1,6 @@
 [build]
 publish = "dist/"
-command = "rustup toolchain install nightly && cargo install cargo-leptos && cargo leptos serve"
+command = "rustup toolchain install nightly && rustup target add wasm32-unknown-unknown && cargo install cargo-leptos && cargo leptos serve"
 
 [[plugins]]
 package = "@netlify/plugin-lighthouse"
