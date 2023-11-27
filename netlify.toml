@@ -1,0 +1,11 @@
+[build]
+publish = "dist/"
+command = "rustup toolchain install nightly && cargo install cargo-leptos && cargo leptos serve"
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+
+[[redirects]]
+from = "/github"
+to = "https://github.com/NiklasEi/leptos-ssg-with-islands"
+status = 302
