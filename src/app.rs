@@ -54,6 +54,7 @@ pub fn App() -> impl IntoView {
 #[component]
 fn HomePage() -> impl IntoView {
     view! {
+        <Navigation/>
         <h1>"Welcome to Leptos!"</h1>
         <Counter/>
     }
@@ -65,13 +66,28 @@ fn Counter() -> impl IntoView {
     let (count, set_count) = create_signal(0);
     let on_click = move |_| set_count.update(|count| *count += 1);
 
-    view! {
-        <button on:click=on_click>"Click Me: " {count}</button>
-    }
+    view! { <button on:click=on_click>"Click Me: " {count}</button> }
 }
 
 /// 404 - Not Found
 #[component]
 fn NotFound() -> impl IntoView {
-    view! { <h1>"Not Found from Leptos"</h1> }
+    view! {
+        <Navigation/>
+        <h1>"Not Found from Leptos"</h1>
+    }
+}
+
+#[component]
+fn Navigation() -> impl IntoView {
+    view! {
+        <ul>
+            <li>
+                <a href="/steve">steve</a>
+            </li>
+            <li>
+                <a href="/vali">vali</a>
+            </li>
+        </ul>
+    }
 }
