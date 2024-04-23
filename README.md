@@ -1,5 +1,7 @@
 # Testing Leptos as a static site generator (SSG)
 
+**The continuation of this is the static site generator [Cinnog](https://www.gihub.com/NiklasEi/cinnog)**
+
 This project uses a custom branch of Leptos to be able to directly serve the output directory as a static website.
 
 `cargo make serve` serves the div directory with watch mode and hot-reload enabled.
